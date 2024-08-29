@@ -6,23 +6,41 @@
       <description>Last 10 notes on 🪴 Quartz 4.0</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>대상 및 분야</title>
-    <link>https://quartz.jzhao.xyz/%EB%8C%80%EC%83%81-%EB%B0%8F-%EB%B6%84%EC%95%BC</link>
-    <guid>https://quartz.jzhao.xyz/%EB%8C%80%EC%83%81-%EB%B0%8F-%EB%B6%84%EC%95%BC</guid>
-    <description>...</description>
-    <pubDate>Wed, 28 Aug 2024 00:14:53 GMT</pubDate>
+    <title>File</title>
+    <link>https://quartz.jzhao.xyz/Linux/Default-Commands/File</link>
+    <guid>https://quartz.jzhao.xyz/Linux/Default-Commands/File</guid>
+    <description>2. File cat : File 의 내용 출력 cat -n : Row number 붙여 출력 more : File 의 내용을 화면 단위로 출력 more +number : 출력을 시작할 Row number 를 지정 less : File 의 내용을 화면 단위로 출력1 head : File 의 1 ~ n Row 까지 출력 head -Line : 출력할 Row 수를 지정 cp : File 이나 Directory 복사 cp -r : SubDirectory &amp; Subfile 까지 모두 복사 cp -v : 복사 진행 상태 출력 cp -p : File or Directory 를 복사할 때 복사 대상의 User, Group, Permissions cp -i : 복사 대상 File 이 이미 해당 위치에 있다면 User 한테 Overdrive 여부 묻고 복사 cp -f : 복사 대상 File 이 이미 해당 위치에 있다면 File 을 지우고 강제로 복사 rm : File 이나 Directory delete rm -i : User 한테 여부 묻고 delete ln : File link 생성 ln -s : Symbolic link file 생성 touch : Empty file 생성 greb : (File 내 search) 지정한 Pattern 포함된 Line 찾기 Ex) grep [option][pattern][file] grep -c : 일치하는 Row 의 수 출력 grep -i : 대소문자 구별 X grep -v : 일치ㅏ하지 않는 Row 만 출력 grep -n : 포함된 Row number 함께 출력 grep -l : Pattern 이 포함된 File name 출력 grep -w : Word 와 일치하는 Row 만 출력 grep -x : Line 과 일치하는 Row 만 출력 grep -r : SubDirectory 를 포함한 모든 File 에서 search grep -m number 최대로 표시될 수 있는 결과를 제한 grep -E : 찾을 pattern 을 정규 포현식으로 찾기 grep -F : 찾을 pattern 을 String 으로 찾기 find : 지정한 Path 에서 Search 조건에 맞는 File 찾기 Ex) find [option][path][expressions]2 find -P : Symbolic link 를 따라가지 않고, Symbolic link 자체 정보 사용 find -L : Symbolic link 에 연결된 File 정보 사용 find -D : Debug message 출력 whereis : 지정된 Path 에서 Command 의 Binary file 이나 Maual file 의 위치를 찾음 whereis -b : Binary file 만 Search whereis -m : Maual file 만 Search whereis -s : Source file 만 Search Footnotes j : Down key k : Up key space bar, Ctrl + f : 다음 Page 이동 \string : 해당 String 찾기 q : 종료 ↩ name : 해당 이름의 File을 찾음(Regex 사용 O) type : 지정된 File type 에 해당하는 Search for file user : 해당 User 에게 속한 Search for file empty : Empty directory 혹은 크기가 0인 Search for file delete : Search된 File 혹은 Directory delete exec : Search된 File 에 대해 지정된 Command 실행 path : 지정된 String pattern 에 해당하는 Path 에서 Search print : Search 결과를 출력, Search 항목을 newline 으로 구분(Default) print0 : Search 결과를 출력, Search 항목을 null 로 구분 size : File size 를 사용 하여 Search for file mindepth : Search 을 시작할 SubDirectory 최소 Depth 지정 maxdepth : Search 할 SubDirectory 의 최대 Depth 지정 atime : n 일 이내에 Acess 된 File 찾음 ctime : n 일 이내에 만들어진 File 찾음 mtime : n 일 이내에 수정된 File 을 찾음 cnewer file : 해당 File 보다 최근에 수정된 File 을 찾음 ↩ .</description>
+    <pubDate>Thu, 29 Aug 2024 09:29:44 GMT</pubDate>
   </item><item>
-    <title>Welcome to KMU-FMCL</title>
+    <title>Directory</title>
+    <link>https://quartz.jzhao.xyz/Linux/Default-Commands/Directory</link>
+    <guid>https://quartz.jzhao.xyz/Linux/Default-Commands/Directory</guid>
+    <description>1. Directory pwd : 현재 위치 확인 cd : 이동 ls : Directory 안 내용 출력 ls -a : 숨긴 파일 모두 출력 ls -d : Directory 자체의 정보 출력 ls -i : incode1 번호 출력 ls -A : ., ..를 제외한 모든 목록 출력2 ls -F : File 종류 표시3 ls -L : Symbolic link 의 경우 원본 File 의 정보 출력 ls -R : 하위 Directory 의 목록 출력 mkdir : Directory 생성 mkdir -p : SubDirectory 를 계층적으로 생성할 때 중간 단계의 Directory를 자동 생성 rmdir : Directory delete Footnotes File, Directory 에 관한 정보를 가지는 숫자 ↩ File, Directory 의 이름 앞에 붙으면 Hidden File, Directory - .</description>
+    <pubDate>Thu, 29 Aug 2024 09:28:14 GMT</pubDate>
+  </item><item>
+    <title>ROS2</title>
+    <link>https://quartz.jzhao.xyz/ROS2/ROS2</link>
+    <guid>https://quartz.jzhao.xyz/ROS2/ROS2</guid>
+    <description></description>
+    <pubDate>Thu, 29 Aug 2024 02:58:15 GMT</pubDate>
+  </item><item>
+    <title>Docker</title>
+    <link>https://quartz.jzhao.xyz/Docker/Docker</link>
+    <guid>https://quartz.jzhao.xyz/Docker/Docker</guid>
+    <description></description>
+    <pubDate>Thu, 29 Aug 2024 02:57:50 GMT</pubDate>
+  </item><item>
+    <title>Ubuntu</title>
+    <link>https://quartz.jzhao.xyz/Linux/Ubuntu</link>
+    <guid>https://quartz.jzhao.xyz/Linux/Ubuntu</guid>
+    <description>Default Commands 1. Directory 2. File 3. Edit Document.</description>
+    <pubDate>Wed, 28 Aug 2024 17:16:54 GMT</pubDate>
+  </item><item>
+    <title>Welcome to KMU-FMCL Docs</title>
     <link>https://quartz.jzhao.xyz/</link>
     <guid>https://quartz.jzhao.xyz/</guid>
-    <description>This is a blank Quartz installation. LIST rows.file.link FROM #test GROUP by type See the documentation for how to get started.</description>
-    <pubDate>Tue, 27 Aug 2024 23:08:11 GMT</pubDate>
-  </item><item>
-    <title>table</title>
-    <link>https://quartz.jzhao.xyz/table</link>
-    <guid>https://quartz.jzhao.xyz/table</guid>
-    <description>응모 분야 분과명 증분류 Sub 분류 신호 처리 이미지 &amp; 비디오 이미지 &amp; 비디오 처리, 계산 사진학,컴퓨터 비전, 생성 모델, 영상화, 이미지 검색, 생체인식 의료 신호 &amp; 이미지 생체 신호 처리, 생체 영상, 의료 영상 처리 음성 &amp; 자연어 처리 오디오 &amp; 음성 신호 처리, 음성 인식, 자연어 처리 범용 신호 코딩, 검색, ...</description>
-    <pubDate>Tue, 27 Aug 2024 23:02:05 GMT</pubDate>
+    <description>Software Ubuntu Docker ROS See the documentation for how to get started.</description>
+    <pubDate>Wed, 28 Aug 2024 00:15:21 GMT</pubDate>
   </item>
     </channel>
   </rss>
