@@ -4,7 +4,7 @@ title: Ubuntu
 
 ## Default Commands
 
-### 1. [[Directory.md|Directory]]
+### 1. [[Directory_commands.md|Directory]]
 
 ### 2. [[File.md|File]]
 
