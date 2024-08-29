@@ -1,5 +1,5 @@
 ### 3. Edit documents
-  - `vi` : 지정한 File 편집 &nbsp; PS) vim을 더 추천
+  - `vi` : 지정한 File 편집 &nbsp; PS) vim[^nvim]을 더 추천
     - `:` : Command mode 진입
     - `q` : 종료
     - `q!` : 강제 종료
@@ -62,3 +62,4 @@
         - `set` : `set`으로 설정한 모든 vi Preferences 값을 출력
         - `set all` : 모든 vi Environment variable 와 Current 값 출력
 
+[^nvim]: 어느정도 익숙해진 뒤 gedit이나 vscode를 쓰지 않고 vim을 더 잘 황용하고 싶다면 nvim을 추천한다. <br> nvim을 IDE 처럼 쓸 수 있는 여러 프로젝트 들도 있으니 이를 참고
