@@ -1,3 +1,7 @@
+---
+title: Edit document
+---
+
 ### 3. Edit documents
   - `vi` : 지정한 File 편집 &nbsp; PS) vim[^nvim]을 더 추천
     - `:` : Command mode 진입

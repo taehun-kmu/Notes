@@ -6,6 +6,30 @@
       <description>Last 10 notes on 🪴 Quartz 4.0</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>HTTP</title>
+    <link>https://quartz.jzhao.xyz/Web/HTTP</link>
+    <guid>https://quartz.jzhao.xyz/Web/HTTP</guid>
+    <description>버너스리는 월드 와이드 웹을 위한 세 가지 구성 요소를 제안했다. HTML : 데이터를 표시하는 언어 HTTP : 클라이언트 - 서버 프로토콜 URL : 웹 리소스를 위한 주소 체계 지금은 평법해 보이지만, 지나고 보니 엄청나게 유용한 조합이었다. 웹이 계속 진화하면서 사람 역시 다양한 실험을 했고, IMG 태그와 같은 아이디어는 웹에서 빠질 수 없는 필수가 됐다.</description>
+    <pubDate>Thu, 29 Aug 2024 22:44:27 GMT</pubDate>
+  </item><item>
+    <title>API Type</title>
+    <link>https://quartz.jzhao.xyz/Web/API-Type</link>
+    <guid>https://quartz.jzhao.xyz/Web/API-Type</guid>
+    <description>1 . 1 . 1 API Type 각 API 는 다음을 정의 Protocol : Control structure Format : Content structure API 종류 초기 API 주로 Local Libaray Function 호출 형태 원격 프로시저 호출(RPC) 다른 Process 나 Computer 의 Function 를 Local Function 처럼 호출 Ex) gRPC1 Messaging(RPC) Process 간 Small data Chunk Command 나 Event Possible Ex) Apache Kafka, RabbitMQ, ZeroMQ Communication Pattern(RPC) Request - Response : Web Browser - Web Server Publish - Subscribe(Pub - Sub) : Publisher 가 Message publish, Subscriber 가 선별적으로 Receive Queue : Pub - Sub 와 유사하나 Single Subscriber 만 Message 처리 이 모든 기술들은 Web Service 에서도 Back-end 작업 수행 등에 활용 Possible 1.</description>
+    <pubDate>Thu, 29 Aug 2024 21:37:17 GMT</pubDate>
+  </item><item>
+    <title>Service &amp; API</title>
+    <link>https://quartz.jzhao.xyz/Web/Service--and--API</link>
+    <guid>https://quartz.jzhao.xyz/Web/Service--and--API</guid>
+    <description>1 . 1 Service &amp; API 1. API 의 중요성 Front-end &amp; Back-end 간 통신 수단 Modern Web 에서 API design 의 중요성이 Website design 만큼 중요 2. API 의 역할 Database schema1 와 유사한 규약 역할 API 정의와 수정, 중차대한 작업 Footnotes Database System 에서 구조, 구성 및 관계를 정의 ↩ .</description>
+    <pubDate>Thu, 29 Aug 2024 20:12:43 GMT</pubDate>
+  </item><item>
+    <title>Modern Web</title>
+    <link>https://quartz.jzhao.xyz/Web/Web</link>
+    <guid>https://quartz.jzhao.xyz/Web/Web</guid>
+    <description>1. Web 의 역할 변화 전통적으는 콘텐츠 중심이었으나, 현재는 API1를 통한 연결성이 중요 2. Web 개발의 분화 Front-end : UI2 제공(JS, Mobile App, etc) Back-end : Database 접근과 Business Logic3 처리 Transclude of Service--and--API#1--1service--api Transclude of API-Type#1--1--1api-type Footnotes Application programming Interface ↩ User Interface ↩ Program 의 핵심 Logic(어떻게 데이터가 생성되고 저장되고 수정되는지를 정의) ↩ .</description>
+    <pubDate>Thu, 29 Aug 2024 20:06:37 GMT</pubDate>
+  </item><item>
     <title>Directory structure</title>
     <link>https://quartz.jzhao.xyz/Linux/Directory_Structure</link>
     <guid>https://quartz.jzhao.xyz/Linux/Directory_Structure</guid>
@@ -18,7 +42,7 @@
     <description>Directory Structure Default Commands 1. Directory 2. File 3. Edit Document.</description>
     <pubDate>Thu, 29 Aug 2024 10:13:12 GMT</pubDate>
   </item><item>
-    <title>vim</title>
+    <title>Edit document</title>
     <link>https://quartz.jzhao.xyz/Linux/Default-Commands/vim</link>
     <guid>https://quartz.jzhao.xyz/Linux/Default-Commands/vim</guid>
     <description>3. Edit documents vi : 지정한 File 편집 PS) vim1을 더 추천 : : Command mode 진입 q : 종료 q! : 강제 종료 w : File 저장 wq : 저장 후 종료 insert mode 전환 i : 현재 커서 위치에 insert I : 현재 Row 맨 앞에 insert a : 현재 커서 다음 위치에 insert A : 현재 Row 마지막에 insert o : 아래 Row 에 insert O : 위 Row 에 insert 커서 Move w : 다음 Word 첫 character 로 Move b : 이전 Word 첫 character 로 Move ctrl + f : 한 Page 아래로 커서 Move ctrl + b : 한 Page 위로 커서 Move G : 마지막 Row 로 커서 Move number : n Row 로 커서 Move 내용 delete x : 현재 커서 위치의 한 character delete X : 현재 커서 위치 이전한 한 character delete dw : 현재 커서 위치의 Word delete db : 현재 커서 위치 이전 Word delete dd : 현재 커서 위치의 Row delete [number]dd : 현재 커서 위치부터 아래 n Row 을 delete d^ : 현재 Row 에서 현재 커서 위치 이전 Row delete d$ : 현재 Row 에서 현재 커서 위치 이후 Row delete Take command u : 이전 Take command U : 해당 Row 에서 한 모든 Command 을 take e! : 마지막으로 저장한 애용 이후의 것을 모두 Take ctrl + r : 이전 Take command 을 take Copy &amp; Paste yy : 현재 커서 위치의 Row 을 copy [number]yy : 현재 커서에서 아래의 n Row 을 copy p : 현재 커서 위치 아래 Row 에 paste P : 현재 커서 위치 위 Row 에 paste yw : 현재 커서 이후 Copy Word yb : 현재 커서 이전 Copy word Search /String : String 을 아래 방향으로 Search ?String : String 을 위 방향으로 검색 n : 다음 Search for string N : 이전 Search for string Replace s/String-1/String-2 : 현재 커서 위치 Row 에서 첫 번째 나오는 String-1 을 String-2 로 변경 %s/String-1/String-2 : File 전체에서 모든 String-1 을 String-2 로 변경 File alias r [file] : 지정한 File 을 읽어 들여 현재 커서 위치로 삽입 e : 지정한 파일로 전환 - 저장 완료 후 기능 n : vi 시작 시 여러 File 을 지정했을 경우 다음 File 로 전환 Preferences ~/.vimrc 편집 set nu : File 내용의 각 Row 에 Row number 표시 set nonu : Row number 표시를 take set list : 눈에 보이지 않는 Special character 를 표시 set showmode : Current mode 표시 set noshowmode : Current mode 표시 take set : set으로 설정한 모든 vi Preferences 값을 출력 set all : 모든 vi Environment variable 와 Current 값 출력 Footnotes 어느정도 익숙해진 뒤 gedit이나 vscode를 쓰지 않고 vim을 더 잘 황용하고 싶다면 nvim을 추천한다.</description>
@@ -30,28 +54,16 @@
     <description></description>
     <pubDate>Thu, 29 Aug 2024 09:44:39 GMT</pubDate>
   </item><item>
-    <title>Directory_commands</title>
+    <title>Directory</title>
     <link>https://quartz.jzhao.xyz/Linux/Default-Commands/Directory_commands</link>
     <guid>https://quartz.jzhao.xyz/Linux/Default-Commands/Directory_commands</guid>
-    <description>1. Directory pwd : 현재 위치 확인 cd : 이동 ls : Directory 안 내용 출력 ls -a : 숨긴 파일 모두 출력 ls -d : Directory 자체의 정보 출력 ls -i : incode1 번호 출력 ls -A : ., ..를 제외한 모든 목록 출력2 ls -F : File 종류 표시3 ls -L : Symbolic link 의 경우 원본 File 의 정보 출력 ls -R : 하위 Directory 의 목록 출력 mkdir : Directory 생성 mkdir -p : SubDirectory 를 계층적으로 생성할 때 중간 단계의 Directory를 자동 생성 rmdir : Directory delete Footnotes File, Directory 에 관한 정보를 가지는 숫자 ↩ File, Directory 의 이름 앞에 붙으면 Hidden File, Directory - .</description>
+    <description>1. Directory pwd : 현재 위치 확인 cd : 이동 ls : Directory 안 내용 출력 ls -a : 숨긴 파일 모두 출력 ls -d : Directory 자체의 정보 출력 ls -i : incode1 번호 출력 ls -A : ., ..를 제외한 모든 목록 출력2 ls -F : File 종류 표시3 ls -L : Symbolic link 의 경우 원본 File 의 정보 출력 ls -R : 하위 Directory 의 목록 출력 mkdir : Directory 생성 mkdir -p : SubDirectory 를 계층적으로 생성할 때 중간 단계의 Directory 를 자동 생성 rmdir : Directory delete Footnotes File, Directory 에 관한 정보를 가지는 숫자 ↩ File, Directory 의 이름 앞에 붙으면 Hidden File, Directory - .</description>
     <pubDate>Thu, 29 Aug 2024 09:44:39 GMT</pubDate>
   </item><item>
     <title>File</title>
     <link>https://quartz.jzhao.xyz/Linux/Default-Commands/File</link>
     <guid>https://quartz.jzhao.xyz/Linux/Default-Commands/File</guid>
     <description>2. File cat : File 의 내용 출력 cat -n : Row number 붙여 출력 more : File 의 내용을 화면 단위로 출력 more +number : 출력을 시작할 Row number 를 지정 less : File 의 내용을 화면 단위로 출력1 head : File 의 1 ~ n Row 까지 출력 head -Line : 출력할 Row 수를 지정 cp : File 이나 Directory 복사 cp -r : SubDirectory &amp; Subfile 까지 모두 복사 cp -v : 복사 진행 상태 출력 cp -p : File or Directory 를 복사할 때 복사 대상의 User, Group, Permissions cp -i : 복사 대상 File 이 이미 해당 위치에 있다면 User 한테 Overdrive 여부 묻고 복사 cp -f : 복사 대상 File 이 이미 해당 위치에 있다면 File 을 지우고 강제로 복사 rm : File 이나 Directory delete rm -i : User 한테 여부 묻고 delete ln : File link 생성 ln -s : Symbolic link file 생성 touch : Empty file 생성 greb : (File 내 search) 지정한 Pattern 포함된 Line 찾기 Ex) grep [option][pattern][file] grep -c : 일치하는 Row 의 수 출력 grep -i : 대소문자 구별 X grep -v : 일치ㅏ하지 않는 Row 만 출력 grep -n : 포함된 Row number 함께 출력 grep -l : Pattern 이 포함된 File name 출력 grep -w : Word 와 일치하는 Row 만 출력 grep -x : Line 과 일치하는 Row 만 출력 grep -r : SubDirectory 를 포함한 모든 File 에서 search grep -m number 최대로 표시될 수 있는 결과를 제한 grep -E : 찾을 pattern 을 정규 포현식으로 찾기 grep -F : 찾을 pattern 을 String 으로 찾기 find : 지정한 Path 에서 Search 조건에 맞는 File 찾기 Ex) find [option][path][expressions]2 find -P : Symbolic link 를 따라가지 않고, Symbolic link 자체 정보 사용 find -L : Symbolic link 에 연결된 File 정보 사용 find -D : Debug message 출력 whereis : 지정된 Path 에서 Command 의 Binary file 이나 Maual file 의 위치를 찾음 whereis -b : Binary file 만 Search whereis -m : Maual file 만 Search whereis -s : Source file 만 Search Footnotes j : Down key k : Up key space bar, Ctrl + f : 다음 Page 이동 \string : 해당 String 찾기 q : 종료 ↩ name : 해당 이름의 File을 찾음(Regex 사용 O) type : 지정된 File type 에 해당하는 Search for file user : 해당 User 에게 속한 Search for file empty : Empty directory 혹은 크기가 0인 Search for file delete : Search된 File 혹은 Directory delete exec : Search된 File 에 대해 지정된 Command 실행 path : 지정된 String pattern 에 해당하는 Path 에서 Search print : Search 결과를 출력, Search 항목을 newline 으로 구분(Default) print0 : Search 결과를 출력, Search 항목을 null 로 구분 size : File size 를 사용 하여 Search for file mindepth : Search 을 시작할 SubDirectory 최소 Depth 지정 maxdepth : Search 할 SubDirectory 의 최대 Depth 지정 atime : n 일 이내에 Acess 된 File 찾음 ctime : n 일 이내에 만들어진 File 찾음 mtime : n 일 이내에 수정된 File 을 찾음 cnewer file : 해당 File 보다 최근에 수정된 File 을 찾음 ↩ .</description>
-    <pubDate>Thu, 29 Aug 2024 09:44:39 GMT</pubDate>
-  </item><item>
-    <title>ROS2</title>
-    <link>https://quartz.jzhao.xyz/ROS2/ROS2</link>
-    <guid>https://quartz.jzhao.xyz/ROS2/ROS2</guid>
-    <description></description>
-    <pubDate>Thu, 29 Aug 2024 09:44:39 GMT</pubDate>
-  </item><item>
-    <title>Welcome to KMU-FMCL Docs</title>
-    <link>https://quartz.jzhao.xyz/</link>
-    <guid>https://quartz.jzhao.xyz/</guid>
-    <description>Software Ubuntu Docker ROS See the documentation for how to get started.</description>
     <pubDate>Thu, 29 Aug 2024 09:44:39 GMT</pubDate>
   </item>
     </channel>

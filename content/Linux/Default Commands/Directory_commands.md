@@ -1,5 +1,5 @@
 ---
-tile : Directory
+title: Directory
 ---
 
 ### 1. Directory
@@ -14,7 +14,7 @@ tile : Directory
     - `ls -L` : Symbolic link 의 경우 원본 File 의 정보 출력
     - `ls -R` : 하위 Directory 의 목록 출력
   - `mkdir` : Directory 생성
-    - `mkdir -p` : SubDirectory 를 계층적으로 생성할 때 중간 단계의 Directory를 자동 생성
+    - `mkdir -p` : SubDirectory 를 계층적으로 생성할 때 중간 단계의 Directory 를 자동 생성
   - `rmdir` : Directory delete
 
 [^incode]: File, Directory 에 관한 정보를 가지는 숫자
