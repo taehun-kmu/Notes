@@ -11,7 +11,7 @@ title: Modern Web
 
 ![[Service & API.md#1 . 1 Service & API]]
 
-![[API Type.md#1 . 1 . 1 API Type]]
+![[API Type.md#1 . 1 . 1 API Type]]
 
 [^API]: Application programming Interface
 [^UI]: User Interface

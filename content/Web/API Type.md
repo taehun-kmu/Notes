@@ -2,7 +2,7 @@
 title: API Type
 ---
 
-### 1 . 1 . 1 API Type
+### 1 . 1 . 1 API Type
 
 #### 각 **API** 는 다음을 정의
 
@@ -30,9 +30,9 @@ title: API Type
   <li style='font-weight: 900'>
   <span style='font-weight: normal'><b>Messaging</b>(RPC)</span>
     <ul>
-      <li style='font-weight: normal'>Process 간 Small data Chunk</li>
+      <li style='font-weight: normal'>Process 간 Small data Chunk<sup id="chunk-ref"><a href="#footnote-chunk">2</a></sup></li>
       <li style='font-weight: normal'>Command 나 Event 가능</li>
-      <li style='font-weight: normal'>Ex) Apache Kafka, RabbitMQ, ZeroMQ</li>
+      <li style='font-weight: normal'>Ex) Apache Kafka<sup id="apache-ref"><a href="#footnote-apache">3</a></sup>, RabbitMQ<sup id="rabbitmq-ref"><a href="#footnote-rabbitmq">4</a></sup>, NATS<sup id="nats-ref"><a href="#footnote-nats">5</a></sup>, ZeroMQ<sup id="zeromq-ref"><a href="#footnote-zeromq">6</a></sup></li>
     </ul>
   </li>
   <br>
@@ -48,6 +48,8 @@ title: API Type
 
 이 모든 기술들은 Web Service 에서도 Back-end 작업 수행 등에 활용 가능
 
+###
+
 ---
 
 ## Footnotes
@@ -55,6 +57,26 @@ title: API Type
 <ol>
   <li id="footnote-grpc">
     <a href="https://grpc.io">https://grpc.io</a>
-    <a href="#grpc-ref" title="돌아가기">↩</a>
+    <a href="#grpc-ref" title="Return">↩</a>
+  </li>
+  <li id="footnote-chunk">조작, Data를 더 작은 단위로 나눈 것
+    <a href="#chunk-ref" title="Return">↩</a>
+  </li>
+  <li id="footnote-apache">
+    <a href="https://kafka.apache.org">https://kafka.apache.org</a>
+    <a href="#apache-ref" title="Return">↩</a>
+  </li>
+  <li id="footnote-rabbitmq">
+    <a href="https://www.rabbitmq.com">https://www.rabbitmq.com</a>
+    <a href="#rabbitmq-ref" title="Return">↩</a>
+  </li>
+  <li id="footnote-nats">
+    <a href="https://nats.io">https://nats.io</a>
+    <a href="#nats-ref" title="Return">↩</a>
+  </li>
+  <li id="footnote-zeromq">
+    <a href="https://zeromq.org">https://zeromq.org</a>
+    <a href="#zeromq-ref" title="Return">↩</a>
   </li>
 </ol>
+
