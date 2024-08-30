@@ -46,18 +46,18 @@ title: API Type
   </li>
 </ol>
 
-이 모든 기술들은 Web Service 에서도 Back-end 작업 수행 등에 활용 가능
+<b><br>이 모든 기술들은 Web Service 에서도 Back-end 작업 수행 등에 활용 가능</b>
 
 ---
 
-## Footnotes
+<span style="display: block; font-size: 1.5em; margin-top: 0.83em; margin-bottom: 0.83em; margin-left: 0; margin-right: 0; font-weight: 900; text-shadow: 0px 0px 0.5px #000">Footnotes</span>
 
 <ol>
   <li id="footnote-grpc">
     <a href="https://grpc.io">https://grpc.io</a>
     <a href="#grpc-ref" title="Return">↩</a>
   </li>
-  <li id="footnote-chunk">조작, Data를 더 작은 단위로 나눈 것
+  <li id="footnote-chunk">Piece, Data 를 더 작은 단위로 나눈 것
     <a href="#chunk-ref" title="Return">↩</a>
   </li>
   <li id="footnote-apache">

@@ -6,7 +6,7 @@ title: GraphQL
 
 ### RESTful API 의 한계
 
-- 특정 상에서 사용하기 번거로울 수 있음
+- 특정 상황에서 사용하기 번거로울 수 있음
 
 ### GraphQL[^graphql]
 
