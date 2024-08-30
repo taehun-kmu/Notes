@@ -9,26 +9,32 @@
     <title>REST(ful)</title>
     <link>https://quartz.jzhao.xyz/Web/REST</link>
     <guid>https://quartz.jzhao.xyz/Web/REST</guid>
-    <description>1 . 1 . 3 REST(ful) REST(Representational State Transfer)의 주요 특징 HTTP 프로토콜 사용 상태 비저장(Stateless) 캐시 가능 리소스 기반 RESTful Web Service 의 핵심 개념 Resource : 작업을 수행할 수 있는 데이터 Endpoint : 고유한 URL 과 HTTP 동사(동작)로 구성된 기능 접근 HTTP 동사와 CRUD 작업의 대응 POST : 생성(Create) GET : 읽기(Read) PUT/PATCH : 수정(Update) DELETE : 삭제(Delete) RESTful Communication 요청 : 클라이언트가 데이터를 헤더, URL, 쿼리 파라미터, 본문에 담아 전송 응답 : 서버가 상태 코드, 헤더, 본문으로 응답 HTTP 상태 코드 100번대 : Information 200번대 : Success 300번대 : Redirection 400번대 : Client Error 500번대 : Server Error PS) 418 상태 코드(I’m a teapot)는 Web 의 유머러스한 Easter Egg .</description>
-    <pubDate>Fri, 30 Aug 2024 01:53:03 GMT</pubDate>
+    <description>1 . 1 . 3 REST(ful) REST(Representational State Transfer)의 주요 특징 HTTP Protocol Usage 상태 비저장(Stateless)1 Cacheable2 Resource-based3 RESTful Web Service 의 핵심 개념 Resource : 작업을 수행할 수 있는 Data Endpoint : 고유한 URL 과 HTTP 동사(동작)로 구성된 기능 접근 HTTP 동사와 CRUD4 작업의 대응 POST : 생성(Create) GET : 읽기(Read) PUT/PATCH : 수정(Update) DELETE : 삭제(Delete) RESTful Communication 요청 : 클라이언트가 데이터를 헤더, URL, 쿼리 파라미터, 본문에 담아 전송 응답 : 서버가 상태 코드, 헤더, 본문으로 응답 HTTP 상태 코드 100번대 : Information 200번대 : Success 300번대 : Redirection 400번대 : Client Error 500번대 : Server Error PS) 418 상태 코드(I’m a teapot)는 Web 의 유머러스한 Easter Egg Footnotes Server 가 Client 의 이전 Request을 저장하지 않는 Architecture ↩ Data 를 Cache 에 저장할 수 있는 지 여부(Server 로 부터 재요청 하지 않고 Client Cache 에서 갸져올 수 있는 Data) ↩ Resource : User 가 식별하고 작업을 수행할 수 있는 Data 특정 System 이나 설계가 Resource 를 중심으로 작동하거나 조작되는 방식 ↩ Database 의 기본 동작인 쓰기(Create) ↩ .</description>
+    <pubDate>Fri, 30 Aug 2024 02:38:53 GMT</pubDate>
+  </item><item>
+    <title>Modern Web</title>
+    <link>https://quartz.jzhao.xyz/Web/Web</link>
+    <guid>https://quartz.jzhao.xyz/Web/Web</guid>
+    <description>1. Web 의 역할 변화 전통적으는 콘텐츠 중심이었으나, 현재는 API1를 통한 연결성이 중요 2. Web 개발의 분화 Front-end : UI2 제공(JS, Mobile App, etc) Back-end : Database 접근과 Business Logic3 처리 Transclude of Service--and--API#1--1service--api Transclude of API-Type#1--1--1api-type Transclude of HTTP#1--1--2http Transclude of REST#1--1--3-restful Footnotes Application programming Interface ↩ User Interface ↩ Program 의 핵심 Logic(어떻게 데이터가 생성되고 저장되고 수정되는지를 정의) ↩ .</description>
+    <pubDate>Fri, 30 Aug 2024 02:38:10 GMT</pubDate>
+  </item><item>
+    <title>Service &amp; API</title>
+    <link>https://quartz.jzhao.xyz/Web/Service--and--API</link>
+    <guid>https://quartz.jzhao.xyz/Web/Service--and--API</guid>
+    <description>1 . 1 Service &amp; API 1. API 의 중요성 Front-end &amp; Back-end 간 통신 수단 Modern Web 에서 API design 의 중요성이 Website design 만큼 중요 2. API 의 역할 Database schema1 와 유사한 규약 역할 API 정의와 수정, 중차대한 작업 Footnotes Database System 에서 구조, 구성 및 관계를 정의 ↩ .</description>
+    <pubDate>Fri, 30 Aug 2024 02:36:56 GMT</pubDate>
+  </item><item>
+    <title>HTTP</title>
+    <link>https://quartz.jzhao.xyz/Web/HTTP</link>
+    <guid>https://quartz.jzhao.xyz/Web/HTTP</guid>
+    <description>1 . 1 . 2 HTTP Tim Berners-Lee 가 제한한 WWW(World-Wide-Web)의 3가지 핵심 구성요 HTML : Data Display Language HTTP : Client - Server Protocol URL : Web Resource Addressing Schema 이 세 가지 요소의 조합은 처음에는 단순해 보였지만, 시간이 지나면서 매우 강력하고 유용한 것으로 입증 Web 이 발전하면서 다양한 실험과 혁신(예: IMG 태그)이 이루어졌고, 이는 Web 의 필수적인 부분 이러한 발전 과정에서 웹 표준의 중요성이 부각되어 더욱 체계적인 정의가 이루어지게 됨.</description>
+    <pubDate>Fri, 30 Aug 2024 01:45:12 GMT</pubDate>
   </item><item>
     <title>API Type</title>
     <link>https://quartz.jzhao.xyz/Web/API-Type</link>
     <guid>https://quartz.jzhao.xyz/Web/API-Type</guid>
     <description>1 . 1 . 1 API Type 각 API 는 다음을 정의 Protocol : Control structure Format : Content structure API 종류 초기 API 주로 Local Libaray Function 호출 형태 원격 프로시저 호출(RPC) 다른 Process 나 Computer 의 Function 를 Local Function 처럼 호출 Ex) gRPC1 Messaging(RPC) Process 간 Small data Chunk2 Command 나 Event 가능 Ex) Apache Kafka3, RabbitMQ4, NATS5, ZeroMQ6 Communication Pattern(RPC) Request - Response : Web Browser - Web Server Publish - Subscribe(Pub - Sub) : Publisher 가 Message publish, Subscriber 가 선별적으로 Receive Queue : Pub - Sub 와 유사하나 Single Subscriber 만 Message 처리 이 모든 기술들은 Web Service 에서도 Back-end 작업 수행 등에 활용 가능 Footnotes grpc.io ↩ 조작, Data를 더 작은 단위로 나눈 것 ↩ kafka.apache.org ↩ www.rabbitmq.com ↩ nats.io ↩ zeromq.org ↩ .</description>
     <pubDate>Fri, 30 Aug 2024 01:23:48 GMT</pubDate>
-  </item><item>
-    <title>Modern Web</title>
-    <link>https://quartz.jzhao.xyz/Web/Web</link>
-    <guid>https://quartz.jzhao.xyz/Web/Web</guid>
-    <description>1. Web 의 역할 변화 전통적으는 콘텐츠 중심이었으나, 현재는 API1를 통한 연결성이 중요 2. Web 개발의 분화 Front-end : UI2 제공(JS, Mobile App, etc) Back-end : Database 접근과 Business Logic3 처리 Transclude of Service--and--API#1--1service--api Transclude of API-Type#1--1--1api-type Transclude of HTTP#1--1--2http Transclude of REST#1--1--3-restful Footnotes Application programming Interface ↩ User Interface ↩ Program 의 핵심 Logic(어떻게 데이터가 생성되고 저장되고 수정되는지를 정의) ↩ .</description>
-    <pubDate>Fri, 30 Aug 2024 01:23:06 GMT</pubDate>
-  </item><item>
-    <title>HTTP</title>
-    <link>https://quartz.jzhao.xyz/Web/HTTP</link>
-    <guid>https://quartz.jzhao.xyz/Web/HTTP</guid>
-    <description>1 . 1 . 2 HTTP Tim Berners-Lee 가 제한한 WWW(World-Wide-Web)의 3가지 핵심 구성요 HTML : Data Display Language HTTP : Client - Server Protocol URL : Web Resource Addressing Schema 이 세 가지 요소의 조합은 처음에는 단순해 보였지만, 시간이 지나면서 매우 강력하고 유용한 것으로 입증 Web 이 발전하면서 다양한 실험과 혁신(예: IMG 태그)이 이루어졌고, 이는 Web 의 필수적인 부분 이러한 발전 과정에서 웹 표준의 중요성이 부각되어 더욱 체계적인 정의가 이루어지게 됨.</description>
-    <pubDate>Thu, 29 Aug 2024 22:48:58 GMT</pubDate>
   </item><item>
     <title>Directory</title>
     <link>https://quartz.jzhao.xyz/Linux/Default-Commands/Directory_commands</link>
@@ -47,12 +53,6 @@
     <guid>https://quartz.jzhao.xyz/Linux/Ubuntu</guid>
     <description>Directory Structure Default Commands 1. Directory 2. File 3. Edit Document.</description>
     <pubDate>Thu, 29 Aug 2024 22:37:44 GMT</pubDate>
-  </item><item>
-    <title>Service &amp; API</title>
-    <link>https://quartz.jzhao.xyz/Web/Service--and--API</link>
-    <guid>https://quartz.jzhao.xyz/Web/Service--and--API</guid>
-    <description>1 . 1 Service &amp; API 1. API 의 중요성 Front-end &amp; Back-end 간 통신 수단 Modern Web 에서 API design 의 중요성이 Website design 만큼 중요 2. API 의 역할 Database schema1 와 유사한 규약 역할 API 정의와 수정, 중차대한 작업 Footnotes Database System 에서 구조, 구성 및 관계를 정의 ↩ .</description>
-    <pubDate>Thu, 29 Aug 2024 22:21:43 GMT</pubDate>
   </item><item>
     <title>Welcome to KMU-FMCL Docs</title>
     <link>https://quartz.jzhao.xyz/</link>
