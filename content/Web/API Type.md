@@ -2,14 +2,14 @@
 title: API Type
 ---
 
-### 1 . 1 . 1 API Type
+## 1 . 1 . 1 API Type
 
-#### 각 **API** 는 다음을 정의
+### 각 **API** 는 다음을 정의
 
 - **Protocol** : Control structure
 - **Format** : Content structure
 
-#### **API** 종류
+### **API** 종류
 
 <ol>
   <li style='font-weight: 900'>
@@ -48,12 +48,10 @@ title: API Type
 
 이 모든 기술들은 Web Service 에서도 Back-end 작업 수행 등에 활용 가능
 
-###
-
 ---
 
 ## Footnotes
-  
+
 <ol>
   <li id="footnote-grpc">
     <a href="https://grpc.io">https://grpc.io</a>
@@ -79,4 +77,3 @@ title: API Type
     <a href="#zeromq-ref" title="Return">↩</a>
   </li>
 </ol>
-
