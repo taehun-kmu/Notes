@@ -2,7 +2,7 @@
 title: API Type
 ---
 
-### 1 . 1 . 1 API Type
+### 1 . 1 . 1 API Type
 
 #### 각 **API** 는 다음을 정의
 
@@ -23,7 +23,7 @@ title: API Type
   <span style='font-weight: normal'><b>원격 프로시저 호출</b>(RPC)</span>
     <ul>
       <li style='font-weight: normal'>다른 Process 나 Computer 의 Function 를 Local Function 처럼 호출</li>
-      <li style='font-weight: normal'>Ex) gRPC<sup id='grpc'><a href='#grpc'>1</a></sup></li>
+      <li style='font-weight: normal'>Ex) gRPC<sup id="grpc-ref"><a href="#footnote-grpc">1</a></sup></li>
     </ul>
   </li>
   <br>
@@ -31,7 +31,7 @@ title: API Type
   <span style='font-weight: normal'><b>Messaging</b>(RPC)</span>
     <ul>
       <li style='font-weight: normal'>Process 간 Small data Chunk</li>
-      <li style='font-weight: normal'>Command 나 Event Possible</li>
+      <li style='font-weight: normal'>Command 나 Event 가능</li>
       <li style='font-weight: normal'>Ex) Apache Kafka, RabbitMQ, ZeroMQ</li>
     </ul>
   </li>
@@ -46,13 +46,15 @@ title: API Type
   </li>
 </ol>
 
-이 모든 기술들은 Web Service 에서도 Back-end 작업 수행 등에 활용 Possible
+이 모든 기술들은 Web Service 에서도 Back-end 작업 수행 등에 활용 가능
 
-###
+---
 
-<p id="grpc">1. This is the footnote content</p>
-
-[^grpc]: https://grpc.io
-[^chunk]: 조각, Data를 더 작은 단위로 나눈 것
-[^Solution]: `Apache Kafka` : https://kafka.apache.org <br> `RabbitMQ` : https://www.rabbitmq.com <br> `ZeroMQ` : https://zeromq.org
-
+## Footnotes
+  
+<ol>
+  <li id="footnote-grpc">
+    <a href="https://grpc.io">https://grpc.io</a>
+    <a href="#grpc-ref" title="돌아가기">↩</a>
+  </li>
+</ol>
