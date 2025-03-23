@@ -6,7 +6,7 @@ title: RMD Motor
 > 
 > - 앞으로 모든 Task와 더불어 **Source Code Control**은 **Github**를 사용
 > 
-> ![[../../Media/Github.png]]
+> ![[../../../Media/Github.png]]
 > 
 > > [!tip] Default Command
 > > 
