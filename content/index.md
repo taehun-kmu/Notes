@@ -24,7 +24,7 @@ title: Welcome to KMU-KUDOS
 
 ## Project
 
-- [[Control]]
+- [[./Project/Control/Control.md|Control]]
 
 - **Vision**
 
