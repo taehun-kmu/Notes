@@ -26,7 +26,7 @@ title: Welcome to KMU-KUDOS
 
 - [[./Project/Control/Control.md|Control]]
 
-- **Vision**
+- [[./Project/Vision/Vision.md|Vision]]
 
 - **Communication**
 

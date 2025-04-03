@@ -11,6 +11,4 @@ alias: Linux_Basic
 
 ### 4. [[./Package/Package.md|Package]]
 
-### 5. File System
-
-### 6. Build system
+### 5. [[./Build/Build.md|Build system]]

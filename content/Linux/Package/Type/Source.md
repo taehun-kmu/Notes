@@ -3,11 +3,9 @@ title: Source Package
 alias: Linux Source Package
 ---
 
-> [!abstract]
-> 
-> > Package containing **source code** that must be **compiled** into a binary file before it can be executed.
-> 
-> - This means that source **packages** are also **compiled** when they are installed,<br>which can lead to **long installation times** & **errors** during the compilation process
+> Package containing **source code** that must be **compiled** into a binary file before it can be executed.
+ 
+- This means that source **packages** are also **compiled** when they are installed,<br>which can lead to **long installation times** & **errors** during the compilation process
 
 ---
 
