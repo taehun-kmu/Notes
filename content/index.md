@@ -1,10 +1,10 @@
 ---
-title: Welcome to KMU-KUDOS
+title: Welcome to taehun-kmu's Docs
 ---
 
 ## OS
 
-- [[./Linux/Linux.md|Linux]]
+- [[./OS/Linux/Linux.md|Linux]]
 
 ## Program Language
 
@@ -21,6 +21,10 @@ title: Welcome to KMU-KUDOS
 - **ROS**
 
 - **Docker**
+
+## Paper
+
+- [[./Paper/Typst/Typst.md|Typst]]
 
 ## Project
 

@@ -133,13 +133,13 @@ flowchart LR
 > - Most file systems are organized in the form of **Directorie** & **File**
 > - Linux's filesystem is hierarchical with all files and directories created under the **root** file
 
-- #### [[./FileSystem/Types.md|Types]]
+- [[./FileSystem/Types.md|Types]]
 
-- #### [[./FileSystem/Structure.md|Structure of the Directory]]
+- [[./FileSystem/Structure.md|Structure of the Directory]]
 
-- #### [[./FileSystem/Folder.md|Permissions by Folder]]
+- [[./FileSystem/Folder.md|Permissions by Folder]]
 
-- #### [[./FileSystem/Mount.md|Mount]]
+- [[./FileSystem/Mount.md|Mount]]
 
 ---
 
@@ -303,11 +303,11 @@ flowchart LR
 > <p></p>
 > 
 
-- #### [[./Command/Redirection.md|File Redirection]]
+- [[./Command/Redirection.md|File Redirection]]
 
-- #### [[./Command/Pipe.md|Pipe]]
+- [[./Command/Pipe.md|Pipe]]
 
-- #### [[./Command/SSH.md|SSH]]
+- [[./Command/SSH.md|SSH]]
 
 ---
 
@@ -328,15 +328,13 @@ flowchart LR
 > 
 > > They are all managed by the **OS**(Operating System)
 
-- #### [[./Process/Characteristic.md|Characteristic]]
+- [[./Process/Characteristic.md|Characteristic]]
 
-- #### [[./Process/RAM.md|Configuring RAM(Memory)]]
+- [[./Process/RAM.md|Configuring RAM(Memory)]]
 
-- #### [[./Process/Related.md|Related Command]]
+- [[./Process/Related.md|Related Command]]
 
-- #### [[./Process/Schedule.md|Schedule Task]]
-
-
+- [[./Process/Schedule.md|Schedule Task]]
 
 
 [^1]: Open Source

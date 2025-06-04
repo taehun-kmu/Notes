@@ -17,7 +17,7 @@ alias: Linux Build System
 > - To build is to do this process
 > - In other words, the act of turning source code into a program is what we call building, and the tools that help us do this are called build systems.
 > 
-> <div align='center'>
+> <div style="text-align: center;">
 > 
 >   ```mermaid
 >   

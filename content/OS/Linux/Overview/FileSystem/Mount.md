@@ -7,7 +7,7 @@ alias: Linx Mount
 
 - Windows **automatically connects** to directories (folders) when you connect a **secondary memory device**(hard, USB, etc.)
 
-> [!info]- Pnp
+> [!info]- PnP
 > 
 > - It will be ready to use as soon as you plug in the **USB**, which is called **Plug and Play**
 > 
