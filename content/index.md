@@ -34,7 +34,9 @@ title: Welcome to taehun-kmu's Docs
 
 - **Communication**
 
-- **SLAM & Navi**
+- **Navigation**
+
+- [[./Project/SLAM/SLAM.md|SLAM]]
 
 This is a blank Quartz installation.
 See the [documentation](https://quartz.jzhao.xyz) for how to get started.
