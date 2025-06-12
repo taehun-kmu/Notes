@@ -100,7 +100,7 @@ alias: SLAM
 >   ```bash
 >   uv venv 
 >   source .venv/bin/activate # Exit venv: deactivate
->   uv pip install numpy opencv-python opencv-contrib-python depthai depthai-viewer spectacularAI[full] --no-cache # venv
+>   uv pip install numpy matplotlib opencv-python opencv-contrib-python pygame PyOpenGL PyopenGL_accelerate depthai depthai-viewer spectacularAI[full] --no-cache # venv
 >   ```
 > 
 > - [Pip](https://pip.pypa.io/en/stable/)
@@ -110,7 +110,7 @@ alias: SLAM
 >   ```
 > 
 >   ```bash
->   uv pip install numpy opencv-python opencv-contrib-python spectacularAI[full] --no-cache # venv
+>   uv pip install numpy matplotlib opencv-python opencv-contrib-python pygame PyOpenGL PyopenGL_accelerate spectacularAI[full] --no-cache # venv
 >   ```
 
 > [!Example]- 
@@ -118,13 +118,13 @@ alias: SLAM
 > > [!info]+ Repository 
 > > 
 > > ```bash
-> > git clone https://github.com/spectacularAI/sdk-examples
+> > git clone https://github.com/spectacularAI/sdk-examples && cd sdk-examples/python/oak
 > > ```
 > 
 > </details>
 > 
 > 
-> - Minimal
+> - **Minimal**
 > 
 >   > Prints 6-DoF poses as JSON text
 > 
@@ -132,13 +132,58 @@ alias: SLAM
 >   python vio_jsonl.py
 >   ```
 > 
-> - Basic 
+> - **Basic** 
 > 
 >   > Interactive 3D plot
 >   > Draw in the air with the device
 > 
 >   ```bash
 >   python vio_visu.py
+>   ```
+> 
+> - **3D pen**
+> 
+>   > Draw in the air
+>   > Cover the OAK-D color camera to activate the ink
+> 
+>   ```bash
+>   python pen_3d.py
+>   ```
+> 
+> - **3D mapping**
+> 
+>   > Build and visualize 3D point cloud of the environment in real-time
+> 
+>   ```bash
+>   python mapping_visu.py
+>   ```
+> 
+> - **3D mapping with Augmented Reality**
+> 
+>   > Show 3D mesh or point cloud on top of camera view, using OpenGL
+> 
+>   ```bash
+>   python mapping_ar.py
+>   ```
+> 
+> - **Advanced Spatial AI example**
+> 
+>   > Spectacular AI VIO + Tiny YOLO object detection
+> 
+>   ```bash
+>   ./depthai_combination.py
+>   ```
+> 
+>   ```bash
+>   python depthai_combination.py
+>   ```
+> 
+> - **Mixed reality**
+> 
+>   > The good old OpenGL functions like `glTranslatef` used for rendering.
+> 
+>   ```bash
+>   python mixed_reality.py
 >   ```
 
 [^1]: D435 without the "**i**" does not work.
