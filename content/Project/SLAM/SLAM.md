@@ -5,6 +5,29 @@ alias: SLAM
 
 ## Spectacular AI
 
+> [!important]+ Develop
+> 
+> - **APT**
+>   ```bash
+>   sudo apt update
+>   sudo apt install --no-install-recommends zlib1g libusb-1.0-0-dev python-is-python3 python3-pip python3-tk python3.10-venv git 
+>   ```
+> 
+> - **C/C++**
+>   ```bash
+>   sudo apt install cmake clang build-essential gcc g++
+>   ```
+> 
+> - **FFmpeg**
+>   ```bash
+>   sudo apt install ffmpeg
+>   ```
+> 
+>   ```bash
+>   # Optional (FFmpeg 6)
+>   sh -c "$(curl -fsSL https://raw.githubusercontent.com/taehun-kmu/auto/main/script/ffmpeg.sh)"
+>   ```
+
 ### Realsense
 
 > [!info]+ Devices
@@ -12,33 +35,29 @@ alias: SLAM
 > - [D455](https://www.intelrealsense.com/depth-camera-d455/)
 > - [D435i](https://www.intelrealsense.com/depth-camera-d435i/) [^1] 
 
-> [!Important]+ Dependencies
+> [!Important]- Dependencies
 > 
-> - **APT**
+> - [UV](https://docs.astral.sh/uv/)
+> 
 >   ```bash
->   sudo apt update
->   sudo apt install --no-install-recommends python-is-python3 python3-pip git
+>   uv tool install spectacularAI[full] --no-cache # Global
 >   ```
 > 
-> - **Pip**
 >   ```bash
->   python3 -m pip install spectacularAI[full]
+>   uv pip install numpy opencv-python opencv-contrib-python spectacularAI[full] --no-cache # venv
 >   ```
 > 
-> - **C/C++ Develop**
+> - [Pip](https://pip.pypa.io/en/stable/)
+> 
 >   ```bash
->   sudo apt install cmake clang build-essential
+>   python3 -m pip install spectacularAI[full] # System
 >   ```
 > 
-> - **FFmpeg**
 >   ```bash
->   sudo apt install ffmpeg
->   
->   # Optional (FFmpeg 6)
->   sh -c "$(curl -fsSL https://raw.githubusercontent.com/taehun-kmu/auto/main/script/ffmpeg.sh)"
+>   pip install numpy opencv-python opencv-contrib-python spectacularAI[full] # venv
 >   ```
 
-> [!Example]+ 
+> [!Example]- 
 > 
 > - **Unzip**
 >   ```bash
@@ -49,9 +68,7 @@ alias: SLAM
 >   ./bin/3rdparty/librealsense/setup_udev_rules.strikethrough
 >   ```
 > 
-> - **Check**
->   > Now you should see rapidly flowing JSONL text <br>
->   > press Ctrl+C to exit
+> - **Check** [^2]
 >   ```bash
 >   ./vio_jsonl
 >   ```
@@ -61,5 +78,69 @@ alias: SLAM
 >   ./sai-record-realsense
 >   ```
 
+### OAK-D
+
+> [!info]+ Devices
+> 
+> > OAK-D models with IMU sensors are supproted. This includes but is not limited to
+> 
+> - [OAK-D](https://shop.luxonis.com/products/oak-d)
+> - [OAKD-D (Pro) W](https://shop.luxonis.com/products/oak-d-pro-w)
+> - [OAK-D LR](https://shop.luxonis.com/products/oak-d-lr)
+> - [OAK-D PoE](https://shop.luxonis.com/products/oak-d-poe)
+
+> [!Important]- Dependencies
+> 
+> - [UV](https://docs.astral.sh/uv/)
+> 
+>   ```bash
+>   uv tool install depthai depthai-viewer spectacularAI[full] --no-cache # Global
+>   ```
+> 
+>   ```bash
+>   uv venv 
+>   source .venv/bin/activate # Exit venv: deactivate
+>   uv pip install numpy opencv-python opencv-contrib-python depthai depthai-viewer spectacularAI[full] --no-cache # venv
+>   ```
+> 
+> - [Pip](https://pip.pypa.io/en/stable/)
+> 
+>   ```bash
+>   uv tool install spectacularAI[full] --no-cache # Global
+>   ```
+> 
+>   ```bash
+>   uv pip install numpy opencv-python opencv-contrib-python spectacularAI[full] --no-cache # venv
+>   ```
+
+> [!Example]- 
+> 
+> > [!info]+ Repository 
+> > 
+> > ```bash
+> > git clone https://github.com/spectacularAI/sdk-examples
+> > ```
+> 
+> </details>
+> 
+> 
+> - Minimal
+> 
+>   > Prints 6-DoF poses as JSON text
+> 
+>   ```bash
+>   python vio_jsonl.py
+>   ```
+> 
+> - Basic 
+> 
+>   > Interactive 3D plot
+>   > Draw in the air with the device
+> 
+>   ```bash
+>   python vio_visu.py
+>   ```
+
 [^1]: D435 without the "**i**" does not work.
+[^2]: Now you should see rapidly flowing JSONL text <br> press Ctrl+C to exit
 
